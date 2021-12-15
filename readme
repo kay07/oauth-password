@@ -1,0 +1,6 @@
+1.获取token
+http://localhost:8080/oauth/token?username=admin&password=admin123&grant_type=password&scope=all&client_id=c1&client_secret=s1
+2.验证token
+http://localhost:8080/oauth/check_token?token=eba421c4-493c-4e82-af33-69bde241ab5d
+3.刷新token
+http://localhost/oauth/token?grant_type=refresh_token&client_id=c1&client_secret=s1&refresh_token=fbde81ee-f419-42b1-1234-9191f1f95be9
